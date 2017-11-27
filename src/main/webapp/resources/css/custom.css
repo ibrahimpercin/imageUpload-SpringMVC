@@ -1,0 +1,155 @@
+body {
+	min-height: 75rem; /* Can be removed; just added for demo purposes */
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	margin-bottom: 0;
+	background-color: #fff;
+}
+
+.jumbotron p:last-child {
+	margin-bottom: 0;
+}
+
+.jumbotron-heading {
+	font-weight: 300;
+}
+
+.jumbotron .container {
+	max-width: 40rem;
+}
+
+.album {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	background-color: #f7f7f7;
+}
+
+.card {
+	cursor: pointer;
+	float: left;
+	width: 33%;
+	padding: .75rem;
+	margin-bottom: 2rem;
+	border: 0;
+}
+
+.card>img {
+	margin-bottom: .75rem;
+	width: 356px;
+	height: 280px;
+}
+
+.card-text {
+	font-size: 85%;
+}
+
+.card-info {
+	width: 100%;
+	color: #ababab;
+	font-size: 12px;
+}
+
+#overlay {
+	position: fixed; /* Sit on top of the page content */
+	display: none; /* Hidden by default */
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.9);
+	/* Black background with opacity */
+	z-index: 2;
+	/* Specify a stack order in case you're using a different order for other elements */
+}
+
+#overlay-header {
+	position: relative;
+	padding: 5px;
+	float: right;
+	height: 50px;
+	width: 100%;
+}
+
+#overlay-header .close {
+	padding: 5px;
+	margin: 5px 15px;
+	font-size: 40px;
+	color: white;
+	cursor: pointer;
+}
+
+#overlay-image {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	padding: 50px auto;
+}
+
+#overlay-image img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: auto;
+	height: auto;
+	max-height: 85%;
+	max-width: 85%;
+	display: block;
+}
+
+#upload-form{
+	margin-top:20px;
+	padding:20px;
+	width:100%;
+	border:1px solid #cdcdcd;
+}
+
+
+
+.form-control-file {
+	display:inline;
+}
+
+.file-upload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.file-upload input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+	
+
+#preview {
+	margin-top:10px;
+	max-width:80%;
+	max-height:500px;
+}
+
+footer {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+footer p {
+	margin-bottom: .25rem;
+}
