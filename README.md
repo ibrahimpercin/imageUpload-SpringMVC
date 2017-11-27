@@ -9,7 +9,7 @@ http://146.185.160.156:8080/imageupload/
 
 * Download this repository as zip
 ```
-https://bitbucket.org/ibrahimpercin/imageupload/downloads/
+https://github.com/ipercin44/imageUpload-SpringMVC.git
 ```
 * In Spring tool suite or Eclipse
 ```
