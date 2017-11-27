@@ -13,7 +13,12 @@ https://github.com/ipercin44/imageUpload-SpringMVC.git
 ```
 * In Spring tool suite or Eclipse
 ```
-File - Open project from file system - Archive - choose downloaded zip - Fİnish
+File - Open project from file system - Archive - Choose downloaded zip file - Finish
 ```
 * Make sure you are using JDK 1.6 and Tomcat or any Java EE server
-* You can build the project and run the tests by running ```mvn install and Run on Server```
+* You can build the project and run the tests by running
+
+```
+mvn install
+Run on Server
+```
